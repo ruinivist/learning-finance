@@ -34,3 +34,5 @@ A delta-neutral hedge offsets the option position's sensitivity to the stock pri
 - Long call or short put: short shares to hedge. In the model, the proceeds earn interest. Higher rates let a call buyer pay more or a put seller accept less. Lower rates hurt these positions.
 
 For existing positions, higher rates help long calls and short puts, and hurt short calls and long puts. The premium already paid or received stays fixed; the price to close changes.
+
+> Sensitivity to interest rate is $\rho$
