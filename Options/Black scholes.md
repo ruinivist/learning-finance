@@ -6,6 +6,8 @@ $$\boxed{\ln(S_T/S_0) \overset{d}{=} (\mu-\tfrac12\sigma^2)T + \sigma\sqrt{T}Z},
 
 Here, $S_0$ is the starting price and $S_T$ is the price at time $T$. The symbol $\overset{d}{=}$ means equality in distribution.
 
+$\sigma$ is the annualized volatility of log returns: $\ln(S_T/S_0)$ has standard deviation $\sigma\sqrt{T}$. It is not the standard deviation of the simple return $S_T/S_0-1$, though the two are close over short intervals with small price changes.
+
 The components are:
 
 - $\mu T$: the drift contribution.
